@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ebay-configure>
+	<monitor-nodes>
+		<node>
+			<id>1000</id>
+			<name>node1.yelbosh.com</name>
+			<ip>192.168.1.1</ip>
+			<uname>name1</uname>
+			<pwd>pwd1</pwd>
+		</node>
+		<node>
+			<id>1001</id>
+			<name>node2.yelbosh.com</name>
+			<ip>192.168.1.2</ip>
+			<uname>name2</uname>
+			<pwd>pwd2</pwd>
+		</node>
+		<node>
+			<id>1002</id>
+			<name>node3.yelbosh.com</name>
+			<ip>192.168.1.3</ip>
+			<uname>name3</uname>
+			<pwd>pwd3</pwd>
+		</node>
+		<node>
+			<id>1003</id>
+			<name>node4.yelbosh.com</name>
+			<ip>192.168.1.4</ip>
+			<uname>name4</uname>
+			<pwd>pwd4</pwd>
+		</node>
+	</monitor-nodes>
+</ebay-configure>

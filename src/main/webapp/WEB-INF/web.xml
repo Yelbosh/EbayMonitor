@@ -1,0 +1,30 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Ebay Monitor</display-name>
+  <listener>
+  	<listener-class>com.yelbosh.ebaymonitor.backend.EbayContextListener</listener-class>
+  </listener>
+  <servlet>
+  	<servlet-name>ServerAction</servlet-name>
+  	<display-name>ServerAction</display-name>
+  	<description></description>
+  	<servlet-class>com.yelbosh.ebaymonitor.action.ServerAction</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MonitorAction</servlet-name>
+  	<display-name>MonitorAction</display-name>
+  	<description></description>
+  	<servlet-class>com.yelbosh.ebaymonitor.action.MonitorAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServerAction</servlet-name>
+  	<url-pattern>/server.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MonitorAction</servlet-name>
+  	<url-pattern>/monitor.action</url-pattern>
+  </servlet-mapping>
+</web-app>

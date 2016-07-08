@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body { width:100%; padding:0; margin:auto; text-align:center; }
+.container { min-width:700px; width:100%; margin-top: 40px; }
+.stopconfirm {
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	line-height: 28px;
+	border: 1px solid #2899e1;
+	border-radius: 2px;
+	background: #57b4f0;
+	background: -moz-linear-gradient(#57b4f0, #33a4ec);
+	background: -webkit-linear-gradient(#57b4f0, #33a4ec);
+	background: -o-linear-gradient(#57b4f0, #33a4ec);
+	background: linear-gradient(#57b4f0,#33a4ec);
+	color: #fff;
+	text-decoration: none;
+	vertical-align: top;
+	text-align: center;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: pointer;
+	padding: 0;
+	margin-top: 20px
+}
